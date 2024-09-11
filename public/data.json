@@ -1,0 +1,148 @@
+{
+  "icons": [
+    {
+      "src": " /images/html-5.svg",
+      "title": "html 5"
+    },
+    {
+      "src": " /images/css3.svg",
+      "title": "css 3"
+    },
+    {
+      "src": " /images/javascript.svg",
+      "title": "javascript"
+    },
+    {
+      "src": " /images/sass.svg",
+      "title": "sass"
+    },
+    {
+      "src": " /images/bootstrap.svg",
+      "title": "bootstrap"
+    },
+    {
+      "src": " /images/tailwind-css.svg",
+      "title": "tailwindcss"
+    },
+    {
+      "src": " /images/nodejs.svg",
+      "title": "nodejs"
+    },
+    {
+      "src": " /images/mongodb.svg",
+      "title": "mongo db"
+    },
+    {
+      "src": " /images/react.svg",
+      "title": "react"
+    },
+    {
+      "src": " /images/photoshop.svg",
+      "title": "photoshop"
+    },
+    {
+      "src": " /images/illustrator.svg",
+      "title": "illustrator"
+    },
+    {
+      "src": " /images/gimp.svg",
+      "title": "gimp"
+    }
+  ],
+
+  "socialIcons": [
+    {
+      "src": "/images/facebook.svg",
+      "title": "facebook",
+      "contact": "https://web.facebook.com/shawon.mondol.797"
+    },
+    {
+      "src": "/images/twitter.svg",
+      "title": "twitter",
+      "contact": ""
+    },
+    {
+      "src": "/images/whatsapp.svg",
+      "title": "whatsapp",
+      "contact": "+8801812014377"
+    },
+    {
+      "src": "/images/telegram.svg",
+      "title": "telegram",
+      "contact": "+8801812014377"
+    },
+    {
+      "src": "/images/skype.svg",
+      "title": "skype",
+      "contact": "+8801812014377"
+    }
+  ],
+  "gellery": [
+    {
+      "src": "/images/hero.jpg",
+      "title": "Hero Image"
+    },
+    {
+      "src": "/images/hero_1.jpg",
+      "title": "Hero Image 1 "
+    },
+    {
+      "src": "/images/hero_2.jpg",
+      "title": "Hero Image 2"
+    },
+    {
+      "src": "/images/hero_3.jpg",
+      "title": "Hero Image 3"
+    },
+    {
+      "src": "/images/hero_4.jpg",
+      "title": "Hero Image 4"
+    },
+    {
+      "src": "/images/hero_5.jpg",
+      "title": "Hero Image 5"
+    },
+    {
+      "src": "/images/hero_6.jpg",
+      "title": "Hero Image 6"
+    },
+    {
+      "src": "/images/hero_7.jpg",
+      "title": "Hero Image 7"
+    },
+    {
+      "src": "/images/hero_8.jpg",
+      "title": "Hero Image 8"
+    },
+    {
+      "src": "/images/hero_9.jpg",
+      "title": "Hero Image 9"
+    }
+  ],
+  "projects": [
+    {
+      "thumb": "/images/foodstore.png",
+      "title": "Food Store app",
+      "src": "https://shawon-food-store.vercel.app/",
+      "git": "https://github.com/shibu72/Shawon_Drinks_Shop"
+    },
+    {
+      "thumb": "/images/drinksshop.png",
+      "title": "Drink Shop app",
+      "src": "https://shawon-drinks-shop.vercel.app/",
+      "git": "https://github.com/shibu72/Shawon_Food_Store"
+    },
+    {
+      "thumb": "/images/counter.png",
+      "title": "Counter app",
+      "src": "https://counter-silk-tau.vercel.app/",
+      "git": "https://github.com/shibu72/Counter"
+    },
+    {
+      "thumb": "/images/formdb.png",
+      "title": "form app",
+      "src": "https://todo-khaki-six-63.vercel.app/",
+      "git": "https://github.com/shibu72/ReactForm_with_locaStorage"
+    }
+  ]
+}
