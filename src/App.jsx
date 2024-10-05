@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from './components/NavBar';
 import Header from './components/Header';
 import About from './components/About';
-import Gellery from './components/Gellery';
+//import Gellery from './components/Gellery';
 import Footer from './components/Footer';
 import Skill from './components/Skill';
 import Projects from "./components/Projects";
@@ -19,7 +19,7 @@ function App() {
        <NavBar/>
        <Header/>
        <About/>
-       <Gellery/>
+      {/*<Gellery/> */}
        <Skill/>
        <Projects/>
        <Contact/>
