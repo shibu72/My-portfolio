@@ -4,6 +4,28 @@ export default function Skill() {
     "w-1/6 h-96 p-4 pt-20 capitalize grid justify-items-center text-center shadow-black shadow-lg rounded-xl transition-all duration-200 ease-in-out hover:scale-125";
   let skill =
     "w-40 text-center p-4 m-10 grid items-center shadow-black shadow-lg transition-all duration-200 ease-in-out hover:scale-150 rounded-lg";
+  const cardData = [
+    {
+      icon: "engineering",
+      title: "cross-industry experience",
+      desc: `before web development, i was a graphics designer, gold tester and
+    a welder. my background gives me versatility and flexibility.`,
+    },
+    {
+      icon: "developer_mode_tv",
+      title: "full stack development",
+      desc: `for me, it&apos;s important to know all sides of the web
+    development process. i&apos;ll learn whatever technology will help
+    me build apps that improve lives`,
+    },
+    {
+      icon: "brush",
+      title: "design focused",
+      desc: `i like making websites look pretty. i know that a good design is
+    just as important as good development. i work with photoshop,
+    illustrator, gimp and inkscape`,
+    },
+  ];
 
   const [iconData, setIconData] = useState([]);
   useEffect(() => {
@@ -12,7 +34,7 @@ export default function Skill() {
       .then((data) => setIconData(data.icons));
   }, []);
 
-  console.log(iconData);
+  // console.log(iconData);
 
   return (
     <>
@@ -30,44 +52,17 @@ export default function Skill() {
         </div>
 
         <div className="py-20 flex justify-evenly">
-          <div className={card}>
-            <span className="material-symbols-rounded text-8xl text-purple-500">
-              engineering
-            </span>
-            <h2 className="font-bold text-2xl text-purple-500">
-              cross-industry experience
-            </h2>
-            <p>
-              before web development, i was a graphics designer, gold tester and
-              a welder. my background gives me versatility and flexibility.
-            </p>
-          </div>
-          <div className={card}>
-            <span className="material-symbols-rounded text-8xl text-purple-500">
-              developer_mode_tv
-            </span>
-            <h2 className="font-bold text-2xl text-purple-500">
-              full stack development
-            </h2>
-            <p>
-              for me, it&apos;s important to know all sides of the web development
-              process. i&apos;ll learn whatever technology will help me build apps
-              that improve lives
-            </p>
-          </div>
-          <div className={card}>
-            <span className="material-symbols-rounded text-8xl text-purple-500">
-              brush
-            </span>
-            <h2 className="font-bold text-2xl text-purple-500">
-              design focused
-            </h2>
-            <p>
-              i like making websites look pretty. i know that a good design is
-              just as important as good development. i work with photoshop,
-              illustrator, gimp and inkscape
-            </p>
-          </div>
+          {cardData.map((item, i) => (
+            <div key={i} className={card}>
+              <span className="material-symbols-rounded text-8xl text-purple-500">
+                {item.icon}
+              </span>
+              <h2 className="font-bold text-2xl text-purple-500">
+                {item.title}
+              </h2>
+              <p>{item.desc}</p>
+            </div>
+          ))}
         </div>
 
         <div className="w-4/5 m-auto p-10 flex flex-wrap justify-around items-center">
